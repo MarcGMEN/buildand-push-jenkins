@@ -1,7 +1,7 @@
 node {
 
-   def registryProjet='marc-app/'
-   def IMAGE="${registryProjet}app:0.0.7"
+   def registryProjet='centos_httpd_mg/'
+   def IMAGE="${registryProjet}app-mg:0.0.7"
 
     stage('Clone') {
           checkout scm
